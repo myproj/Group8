@@ -1,2 +1,2 @@
 void print_hello();
-int factorial(int n);
+int factorial(int n);//this is comeee
