@@ -13,7 +13,7 @@ int main(){
       cin>>n;
       if(n>0){
 	cout<<"factorial="<<factorial(n)<<endl;
-	//printf("factorial= %d\n",factorial(n));
+	printf("(printf)factorial= %d\n",factorial(n));
 	cout<<"press n to exit || y to renter:";
 	cin>>choice;
       }else{
