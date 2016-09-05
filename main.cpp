@@ -14,7 +14,7 @@ int main(){
       if(n>0){
 	cout<<"factorial="<<factorial(n)<<endl;
 	//printf("factorial= %d\n",factorial(n));
-	cout<<"press n to exit \n y to renter:";
+	cout<<"press n to exit || y to renter:";
 	cin>>choice;
       }else{
 	cout<<"renter +ve value";
