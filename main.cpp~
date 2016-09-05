@@ -6,6 +6,6 @@ int main(){
     print_hello();
     cout<< endl;
     cout<<"The factorial of 5 is "<< factorial(5)<< endl;
-    printf("factorial= %d\n",factorial(5));
+    printf("factorial= %d\n",factorial(n));
     return 0;
 }
