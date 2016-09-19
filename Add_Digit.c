@@ -11,18 +11,31 @@ int main()
     
    while(n != 0)
    {
-      remainder = n % 10;
-	   //printf("The Remainder is %d\n", remainder);
-      cout<<"The Remainder is"<<remainder<<"\n";
-      sum = sum + remainder;
-	   //printf("The Sum is %d\n", sum);
-      cout<<"The Sum is"<<sum<<"\n";
-      n = n / 10;
-	   printf("The n is %d\n", n);
+      if(n>0){
+         remainder = n % 10;
+   	  printf("The Remainder is %d\n", remainder);
+         sum = sum + remainder;
+   	  printf("The Sum is %d\n", sum);
+         n = n / 10;
+   	  printf("The n is %d\n", n);
+      }else{
+         remainder = n % 10;
+         n = n / 10;
+         if(n == 0){
+            printf("The Remainder is %d\n", remainder*(-1));
+            sum = sum - remainder;
+            printf("The Sum is %d\n", sum);
+            printf("The n is %d\n", n);
+         }
+         printf("The Remainder is %d\n", remainder);
+         sum = sum + remainder;
+         printf("The Sum is %d\n", sum);
+
+         printf("The n is %d\n", n);
+
+      }
    }
  
-   //printf("Sum of digits of entered number = %d\n",sum);
-   cout<<"Sum of digits of entered number"<<sum<<"\n";
-   //comment added 1
+   printf("Sum of digits of entered number = %d\n",sum);
    return 0;
 }
