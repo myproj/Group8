@@ -18,6 +18,6 @@ int main()
    }
  
    printf("Sum of digits of entered number = %d\n",sum);
- 
+   //comments added in reverted file
    return 0;
 }
